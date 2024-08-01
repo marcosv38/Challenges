@@ -1,0 +1,10 @@
+@import url(./styles/cabecalho.css);
+
+:root{
+    --background-color: #FFFFFF;
+    --botao-cor: rgba(142, 36, 36, 1);
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
