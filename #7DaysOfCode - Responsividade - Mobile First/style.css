@@ -1,8 +1,9 @@
 @import url(./styles/cabecalho.css);
+@import url(./styles/consultas.css);
 
 /*atribuição de variáveis com valores base do projeto*/
 :root{
-    --background-color-principal: rgba(255, 255, 255, 1);
+    --background-color-principal: #faf8ff;
     --background-color-secundario: #FFFFFF;
     --letra-principal-cinza-escuro: rgba(70, 70, 70, 1);
     --letra-secundaria-cinza-claro: rgba(163, 163, 163, 1);
