@@ -1,5 +1,6 @@
 @import url(./styles/cabecalho.css);
 @import url(./styles/consultas.css);
+@import url(./styles/rodape.css);
 
 /*atribuição de variáveis com valores base do projeto*/
 :root{

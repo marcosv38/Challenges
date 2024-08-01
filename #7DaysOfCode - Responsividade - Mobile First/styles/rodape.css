@@ -1,0 +1,22 @@
+.menu__icone{
+    position: sticky;
+    bottom: 10%;
+    left: 80%;
+    height: 3.6em;
+}
+
+.rodape{
+    height: 3.625em;
+    border-radius: 12px 12px 0 0;
+    position: sticky;
+    bottom: 0%;
+    background-color: var(--background-color-secundario);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 0.625em;
+}
+
+.rodape__icone__imagem{
+    flex-grow: 1;
+}
