@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .consultas__marcadas__dia{
@@ -11,10 +12,13 @@
 }
 
 .consultas__marcadas__card{
-    background-color: var(--background-color-principal);
+    
     width: 328px;
     margin: 0 0 1em 0;
     border-radius: 10px;
+    padding: 1em 0;
+    background-color: var(--background-color-secundario);
+
 }
 
 
@@ -91,4 +95,17 @@
     border-radius: 8px;
     color: var(--letra-principal-cinza-escuro);
     font-size: 14px;
+}
+
+.consultas__marcadas__card__Endereco{
+    background-color: var(--botao-cor-azul);
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 8px;
+    color: var(--botao-cor-branco);
+    font-size: 14px;
+    width: auto;
+    display: block;
+    margin: 0 1em;
+    text-align: center;
 }
