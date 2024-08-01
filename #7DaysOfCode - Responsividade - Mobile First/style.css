@@ -1,4 +1,4 @@
-
+@import url(./styles/cabecalho.css);
 
 /*atribuição de variáveis com valores base do projeto*/
 :root{
@@ -6,5 +6,10 @@
     --background-color-secundario: #FFFFFF;
     --letra-principal-cinza-escuro: rgba(70, 70, 70, 1);
     --letra-secundaria-cinza-claro: rgba(163, 163, 163, 1);
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--background-color-principal);
 }
 
