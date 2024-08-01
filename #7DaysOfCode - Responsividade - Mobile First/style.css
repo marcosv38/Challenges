@@ -6,6 +6,9 @@
     --background-color-secundario: #FFFFFF;
     --letra-principal-cinza-escuro: rgba(70, 70, 70, 1);
     --letra-secundaria-cinza-claro: rgba(163, 163, 163, 1);
+    --botao-cor-laranja: rgba(255, 176, 80, 1);
+    --botao-cor-branco: rgba(236, 236, 236, 1);
+    --botao-cor-azul:rgba(72, 148, 255, 1);
 }
 
 body{
