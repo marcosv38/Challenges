@@ -18,9 +18,10 @@
 }
 
 .cabecalho__botoes{
-   display: flex;
+    display: flex;
     justify-content: space-between;
     gap:8px;
+    align-items: center;
 }
 
 .cabecalho__botoes__Entrar{
