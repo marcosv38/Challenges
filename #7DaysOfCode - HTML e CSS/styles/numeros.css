@@ -1,0 +1,30 @@
+.numeros{
+    display: flex;
+    align-items: center;
+    padding: 0 8rem 6rem 8rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numeros__container{
+    width: 23%;
+}
+
+.numeros__container__titulo{
+    font-weight: 600;
+    font-size: 3.75rem;
+    color: var(--botao-cor-destaque);
+}
+
+.numeros__container__sub{
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--fonte-cor-titulo);
+    margin: 0.75rem 0 0.5rem 0;
+}
+
+.numeros__container__descricao{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--fonte-cor-principal);
+}
