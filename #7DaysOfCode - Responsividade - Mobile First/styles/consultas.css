@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .consultas__marcadas__dia{
@@ -40,6 +41,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    flex-direction: column;
 }
 
 .consultas__marcadas__card__info-cliente__nome-cliente{
@@ -84,7 +86,7 @@
     text-decoration: none;
     border-radius: 8px;
     color: var(--botao-cor-branco);
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .consultas__marcadas__card__audio-bt{
@@ -94,7 +96,7 @@
     border: 1px solid var(--letra-secundaria-cinza-claro);
     border-radius: 8px;
     color: var(--letra-principal-cinza-escuro);
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .consultas__marcadas__card__Endereco{
@@ -108,4 +110,36 @@
     display: block;
     margin: 0 1em;
     text-align: center;
+}
+
+
+@media screen and (min-width:768px) { 
+    .consultas__marcadas{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+    .consultas__marcadas__card{
+        width: 45%;
+    }
+    
+}
+
+
+@media screen and (min-width:1440px) { 
+    .consultas__marcadas{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+    .consultas__marcadas__card{
+        width: 30%;
+    }
+    
 }
