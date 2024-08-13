@@ -1,12 +1,14 @@
 @import url(./styles/cabecalho.css);
 @import url(./styles/numeros.css);
 @import url(./styles/vagas.css);
+@import url(./styles/comentarios.css);
 
 :root{
     --background-color: #FFFFFF;
     --botao-cor-destaque: rgba(142, 36, 36, 1);
     --fonte-cor-principal: rgba(102, 112, 133, 1);
     --fonte-cor-titulo: rgba(16, 24, 40, 1);
+    --background-comment: #FEF9F9;
 }
 
 body{

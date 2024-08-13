@@ -1,0 +1,48 @@
+.comentarios{
+    background-color: var(--background-comment);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.comentarios__container__legenda{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--botao-cor-destaque);
+}
+
+.comentarios__container__comentario{
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--fonte-cor-titulo);
+    margin: 1rem 0 2rem 0;
+}
+
+.comentarios__container__perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comentarios__container__perfil__avatar{
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+ .comentarios__container__perfil__nome{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--fonte-cor-titulo);
+ }
+
+ .comentarios__container__perfil__cargo{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--fonte-cor-principal);
+ }
