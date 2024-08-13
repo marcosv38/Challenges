@@ -2,6 +2,8 @@
 @import url(./styles/numeros.css);
 @import url(./styles/vagas.css);
 @import url(./styles/comentarios.css);
+@import url(./styles/footer.css);
+
 
 :root{
     --background-color: #FFFFFF;
@@ -9,6 +11,7 @@
     --fonte-cor-principal: rgba(102, 112, 133, 1);
     --fonte-cor-titulo: rgba(16, 24, 40, 1);
     --background-comment: #FEF9F9;
+    --background-footer: rgba(249, 250, 251, 1);
 }
 
 body{

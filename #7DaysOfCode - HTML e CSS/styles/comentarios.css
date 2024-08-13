@@ -6,7 +6,7 @@
     flex-direction: column;
     text-align: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 6rem auto;
     padding: 4rem;
 }
 
@@ -45,4 +45,6 @@
     font-size: 0.875rem;
     font-weight: 400;
     color: var(--fonte-cor-principal);
+    
  }
+

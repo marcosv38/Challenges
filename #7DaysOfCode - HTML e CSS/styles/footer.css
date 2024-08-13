@@ -1,0 +1,42 @@
+.novidades{
+   background-color: var(--background-footer);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 6rem 0;
+}
+.novidades__titulo{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--fonte-cor-titulo);
+}
+
+.novidades__subtitulo{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--fonte-cor-principal);
+    margin: 1.25rem 0 2.5rem 0;
+}
+
+.novidades__cadastro__email{
+    border: 1px solid var(--fonte-cor-principal);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    width: 22.5rem;
+}
+
+.novidades__cadastro__bt{
+    border: 1px solid var(--botao-cor-destaque);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    background-color: var(--botao-cor-destaque);
+    color: var(--background-color);
+}
+
+.novidades__footer{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--fonte-cor-principal);
+    margin-top: 2rem;
+}
