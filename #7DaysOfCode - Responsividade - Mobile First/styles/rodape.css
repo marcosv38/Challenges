@@ -1,36 +1,3 @@
-.menu-flutuante{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    bottom: 10%;
-    right: 5%;
-    height: auto;
-   
-}
-
-.menu-flutuante__icone__hidden{
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    flex-direction: row-reverse;
-    text-align: right;
-
-}
-
-.menu-flutuante__icone{
-    text-align: right;
-}
-
-
-.Bg-menu-flutuante{
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-}
-
 
 .menu__icone__imagem__legenda{
     font-size: 0.75rem;

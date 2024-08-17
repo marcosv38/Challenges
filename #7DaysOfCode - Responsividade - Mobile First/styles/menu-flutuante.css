@@ -1,0 +1,59 @@
+.menu-flutuante{
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    height: auto;
+    flex-direction: column-reverse;
+   
+}
+
+.menu-flutuante__icone__hidden{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: right;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.menu-flutuante__icone{
+    text-align: right;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.menu-flutuante__icone__label{
+    text-align: right;
+}
+
+.menu-flutuante__icone:checked ~ .menu-flutuante__icone__hidden{
+    visibility:visible;
+    z-index: 1;
+}
+
+.menu-flutuante__icone:checked ~ #bg{
+    visibility:visible;
+    z-index: -1;
+}
+
+
+
+.Bg-menu-flutuante{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    visibility:hidden;
+    z-index: -1;
+}
+
+@media screen and (min-width:768px) { 
+    .menu-flutuante{
+        display: none;
+    }
+
+}
