@@ -129,13 +129,14 @@
 }
 
 
-@media screen and (min-width:1440px) { 
+@media screen and (min-width:1280px) { 
     .consultas__marcadas{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 1rem;
         padding: 2rem;
+        padding-left: 10rem;
     }
 
     .consultas__marcadas__card{
